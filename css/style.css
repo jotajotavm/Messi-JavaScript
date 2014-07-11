@@ -1,0 +1,45 @@
+#caricatura{
+	margin-left: 50px;
+	width: 1992px;
+	height: 2080px;
+	position: relative;
+	border: 15px solid black;
+	/*background: url(../messi.gif); /*azul para que se vean los dientes*/
+	
+	background: rgb(119,197,239); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(119,197,239,1) 0%, rgba(114,195,249,1) 8%, rgba(242,247,247,1) 17%, rgba(249,250,252,1) 31%, rgba(127,205,244,1) 40%, rgba(159,216,244,1) 59%, rgba(247,247,247,1) 69%, rgba(247,249,252,1) 87%, rgba(89,191,242,1) 94%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(119,197,239,1)), color-stop(8%,rgba(114,195,249,1)), color-stop(17%,rgba(242,247,247,1)), color-stop(31%,rgba(249,250,252,1)), color-stop(40%,rgba(127,205,244,1)), color-stop(59%,rgba(159,216,244,1)), color-stop(69%,rgba(247,247,247,1)), color-stop(87%,rgba(247,249,252,1)), color-stop(94%,rgba(89,191,242,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(119,197,239,1) 0%,rgba(114,195,249,1) 8%,rgba(242,247,247,1) 17%,rgba(249,250,252,1) 31%,rgba(127,205,244,1) 40%,rgba(159,216,244,1) 59%,rgba(247,247,247,1) 69%,rgba(247,249,252,1) 87%,rgba(89,191,242,1) 94%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(119,197,239,1) 0%,rgba(114,195,249,1) 8%,rgba(242,247,247,1) 17%,rgba(249,250,252,1) 31%,rgba(127,205,244,1) 40%,rgba(159,216,244,1) 59%,rgba(247,247,247,1) 69%,rgba(247,249,252,1) 87%,rgba(89,191,242,1) 94%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(119,197,239,1) 0%,rgba(114,195,249,1) 8%,rgba(242,247,247,1) 17%,rgba(249,250,252,1) 31%,rgba(127,205,244,1) 40%,rgba(159,216,244,1) 59%,rgba(247,247,247,1) 69%,rgba(247,249,252,1) 87%,rgba(89,191,242,1) 94%); /* IE10+ */
+background: linear-gradient(to right,  rgba(119,197,239,1) 0%,rgba(114,195,249,1) 8%,rgba(242,247,247,1) 17%,rgba(249,250,252,1) 31%,rgba(127,205,244,1) 40%,rgba(159,216,244,1) 59%,rgba(247,247,247,1) 69%,rgba(247,249,252,1) 87%,rgba(89,191,242,1) 94%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#77c5ef', endColorstr='#59bff2',GradientType=1 ); /* IE6-9 */
+
+
+}
+
+canvas{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+#pelo{ z-index: 999; }
+#rostro{ z-index: 0; }
+/*
+#oreja, #dientes, #hoyuelo_grande, 
+#hoyuelo_chico, #ceja_chica,
+#ceja_grande, #orificio_nariz, #ojo{ 
+	z-index: 550; 
+}
+*/
+#oreja, #hoyuelo1, #hoyuelo2, 
+#boca, #barbilla, #cejaGrande{ 
+	z-index: 550; 
+}
+#dientes{
+	z-index: 600;
+}
+
+
+
+
